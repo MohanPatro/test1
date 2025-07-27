@@ -1,4 +1,4 @@
-import './Ex.css'
+import './ex.css'
 function Ex({data})
 {
     return(
