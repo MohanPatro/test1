@@ -1,0 +1,126 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  background-color: white;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.summary {
+  color: #555;
+  line-height: 1.6;
+}
+
+.experienceItem {
+  margin-bottom: 20px;
+}
+
+.experienceHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+
+.positionTitle {
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+}
+
+.duration {
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+}
+
+.company {
+  color: #555;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.description {
+  color: #666;
+  line-height: 1.6;
+}
+
+.educationItem {
+  margin-bottom: 15px;
+}
+
+.educationHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.schoolName {
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+}
+
+.grade {
+  color: #666;
+}
+
+.projectItem {
+  margin-bottom: 20px;
+}
+
+.projectName {
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.technologies {
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.skills {
+  color: #555;
+  line-height: 1.6;
+}

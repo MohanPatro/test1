@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form-container{
+    max-width: 900px;
+    border: 2px solid rgb(190, 186, 186);
+    box-shadow: 1px 0 4px rgb(112, 111, 111);
+    margin: auto;
+    padding: 30px;
+}
+
+h2{
+    font-size: 2rem;
+    border-left: 4px solid rgb(0, 140, 255);
+    padding-left: 10px;
+    margin-bottom: 1.2rem;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.grouped{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    
+}
+
+input,textarea{
+    border-radius: 2px;
+    padding: 10px 10px;
+    /* font-size: 10px; */
+    /* margin: 10px 16px; */
+    margin: 10px;
+    border: 1px solid rgb(123, 119, 119);
+}
+input{
+    width: 80%;
+}
+textarea{
+    width: 80%;
+}
+
+
+.add{
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(0, 157, 255);
+}
+
+.rmv{
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+
+    background-color: rgb(255, 0, 119);
+}
+.rmv:hover{
+    cursor: pointer;
+    background-color: rgb(255, 0, 64);
+}
+
+.add:hover{
+    cursor: pointer;
+    background-color: rgb(0, 140, 255);
+}
+input:focus,textarea:focus{
+    outline: none;
+    border: 2px solid rgb(0, 166, 255);
+}
